@@ -1,0 +1,52 @@
+@import '~bootstrap/scss/bootstrap.scss';
+body {
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: sans-serif, 'Montserrat';
+}
+
+a {
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header {
+  background: #343a40;
+  .logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+main {
+  .home {
+    min-height: 400px;
+    .search {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+    }
+    .listItem {
+      .item {
+        border: #16a085 1px solid;
+        img {
+          width: 120px;
+          height: 180px;
+        }
+      }
+    }
+  }
+}
