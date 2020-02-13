@@ -1,0 +1,2 @@
+# MovieSearchDB
+YARN OR NPM INSTALL
