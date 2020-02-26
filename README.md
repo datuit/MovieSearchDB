@@ -22,5 +22,5 @@ npm start
 
 
 ```
-# END
+# END.
 
