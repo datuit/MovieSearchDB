@@ -22,14 +22,6 @@ const MovieCard = ({ item }) => {
           </a>
         </CardBody>
       </Card>
-      {/* <div className="card card-body bg-dark text-center h-100">
-        <img className="w-100 mb-2" src="/sss" alt="Movie Cover" />
-        <h5 className="text-light card-title">3000 - 3000</h5>
-        <Link className="btn btn-primary" to={'/movie/'}>
-          Movie Details
-          <i className="fas fa-chevron-right" />
-        </Link>
-      </div> */}
     </Col>
   )
 }
